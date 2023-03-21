@@ -1,0 +1,22 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "tabs-login",
+            "customElement": "tabs-login",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "tabs-login",
+                "it": "tabs-login"
+            }
+        }
+    ],
+    "svc": [],
+    "name": "consap-login",
+    "version": "0.0.1",
+    "description": "consap-login description",
+    "type": "bundle"
+}
