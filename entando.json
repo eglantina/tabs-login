@@ -11,7 +11,33 @@
             "titles": {
                 "en": "tabs-login",
                 "it": "tabs-login"
-            }
+            },
+            "apiClaims": [
+                {
+                    "name": "cie-api",
+                    "type": "external",
+                    "serviceName": "cie-ms",
+                    "bundle": "docker://registry.hub.docker.com/gsprea/cie-bundle"
+                },
+                {
+                    "name": "spid-api",
+                    "type": "external",
+                    "serviceName": "spid-ms",
+                    "bundle": "docker://registry.hub.docker.com/gsprea/spid-bundle"
+                },
+                {
+                    "name": "eidas-api",
+                    "type": "external",
+                    "serviceName": "eidas-ms",
+                    "bundle": "docker://registry.hub.docker.com/gsprea/eidas-bundle"
+                },
+                {
+                    "name": "credenziali-api",
+                    "type": "external",
+                    "serviceName": "credenziali-ms",
+                    "bundle": "docker://registry.hub.docker.com/gsprea/credenziali-bundle"
+                }
+            ]
         }
     ],
     "svc": [],

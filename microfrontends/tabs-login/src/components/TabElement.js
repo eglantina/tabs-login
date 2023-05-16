@@ -7,9 +7,13 @@ import EidasLogin from './EidasElement';
 import LoginCredenziali from './Credenziali';
 import spid_icone from '../icone/spid_icon.png';
 import  {HiIdentification } from "react-icons/hi";
+import  cie  from "../icone/cie.png";
+import  eidas  from "../icone/eidas.png";
+import  credenziali  from "../icone/credenziali.png";
 
 
-export default function TabElement() {
+export default function TabElement({config}) {
+  
   return (
    
     <Tabs
@@ -25,14 +29,14 @@ export default function TabElement() {
                             alt=""
                         /> SPID
                         </div> }  >
-                        <SpidLogin /></Tab> 
+                        <SpidLogin config={config}/></Tab> 
      
 
       <Tab eventKey="cie" title={
                     <div className="pull-left">
                         <img className="thumbnail-image" 
-                            src= {{ HiIdentification }}
-                            style={{ width: '20px' }}
+                            src= {cie }
+                            style={{ width: '45px' }}
                             alt=""
                         /> CIE
                         </div> }  > 
@@ -42,7 +46,7 @@ export default function TabElement() {
       <Tab eventKey="eidas" title={
                     <div className="pull-left">
                         <img className="thumbnail-image" 
-                            src= {{ HiIdentification }}
+                            src= {eidas}
                             style={{ width: '20px' }}
                             alt=""
                         /> eIDAS
@@ -53,7 +57,7 @@ export default function TabElement() {
       <Tab eventKey="credenziali" title={
                     <div className="pull-left">
                         <img className="thumbnail-image" 
-                            src= {{ HiIdentification }}
+                            src= {credenziali}
                             style={{ width: '20px' }}
                             alt=""
                         /> Credenziali

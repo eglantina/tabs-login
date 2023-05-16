@@ -1,0 +1,18 @@
+{
+    "systemParams": {
+        "api": {
+            "cie-api": {
+                "url": "http://quickstart.192.168.29.139.nip.io/cie-bundle-669a5833/cie-ms"
+            },
+            "spid-api": {
+                "url": "http://quickstart.192.168.29.139.nip.io/spid-bundle-4e5d7359/spid-ms"
+            },
+            "eidas-api": {
+                "url": "http://quickstart.192.168.29.139.nip.io/eidas-bundle-13205450/eidas-ms"
+            },
+            "credenziali-api": {
+                "url": "http://quickstart.192.168.29.139.nip.io/credenziali-bundle-90f982cf/credenziali-ms"
+            }
+        }
+    }
+}

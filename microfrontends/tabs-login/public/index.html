@@ -29,5 +29,16 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
    <tabs-login />
+   <script>
+    function injectConfigIntoMfe() {
+      fetch('%PUBLIC_URL%/mfe-config.json').then(async response => {
+        const config = await response.json()
+        const mfeEl = document.getElementsByTagName('tabs-login')[0]
+        mfeEl.config = config
+      })
+    }
+
+    injectConfigIntoMfe()
+  </script>
   </body>
 </html>
