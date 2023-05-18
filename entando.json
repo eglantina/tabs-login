@@ -17,25 +17,25 @@
                     "name": "cie-api",
                     "type": "external",
                     "serviceName": "cie-ms",
-                    "bundle": "docker://registry.hub.docker.com/gsprea/cie-bundle"
+                    "bundle": "docker://registry.hub.docker.com/nuovoportale/cie-bundle"
                 },
                 {
                     "name": "spid-api",
                     "type": "external",
                     "serviceName": "spid-ms",
-                    "bundle": "docker://registry.hub.docker.com/gsprea/spid-bundle"
+                    "bundle": "docker://registry.hub.docker.com/nuovoportale/spid-bundle"
                 },
                 {
                     "name": "eidas-api",
                     "type": "external",
                     "serviceName": "eidas-ms",
-                    "bundle": "docker://registry.hub.docker.com/gsprea/eidas-bundle"
+                    "bundle": "docker://registry.hub.docker.com/nuovoportale/eidas-bundle"
                 },
                 {
                     "name": "credenziali-api",
                     "type": "external",
                     "serviceName": "credenziali-ms",
-                    "bundle": "docker://registry.hub.docker.com/gsprea/credenziali-bundle"
+                    "bundle": "docker://registry.hub.docker.com/nuovoportale/credenziali-bundle"
                 }
             ]
         }

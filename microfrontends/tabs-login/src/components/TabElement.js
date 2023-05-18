@@ -6,7 +6,6 @@ import CIELogin from './CieElement';
 import EidasLogin from './EidasElement';
 import LoginCredenziali from './Credenziali';
 import spid_icone from '../icone/spid_icon.png';
-import  {HiIdentification } from "react-icons/hi";
 import  cie  from "../icone/cie.png";
 import  eidas  from "../icone/eidas.png";
 import  credenziali  from "../icone/credenziali.png";
